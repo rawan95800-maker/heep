@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heep - Indoor Plants Store in Oman</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Page Load Animation Overlay -->
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="assets/images/logo.jpg" alt="Heep Logo" class="logo-img">
+                <span class="logo-text">Heep</span>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#3d">3D Plants</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Bring Nature Into Your Home</h1>
+            <p>The finest indoor plants in Oman, carefully curated to match your space.</p>
+            <button class="btn">Shop Now</button>
+        </div>
+        <div class="hero-image">
+            <picture>
+                <source srcset="assets/images/hero.jpg" media="(min-width: 800px)">
+                <img src="assets/images/hero.jpg" alt="Beautiful indoor plants">
+            </picture>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Our Selected Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="assets/images/image1.jpeg" alt="Plant 1">
+                <h3>Indoor Plant 1</h3>
+                <p class="price">OMR 15</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="assets/images/image2.jpg" alt="Plant 2">
+                <h3>Indoor Plant 2</h3>
+                <p class="price">OMR 12</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="assets/images/image3.jpeg" alt="Plant 3">
+                <h3>Indoor Plant 3</h3>
+                <p class="price">OMR 18</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="assets/images/image4.jpeg" alt="Plant 4">
+                <h3>Indoor Plant 4</h3>
+                <p class="price">OMR 20</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="assets/images/image5.jpeg" alt="Plant 5">
+                <h3>Indoor Plant 5</h3>
+                <p class="price">OMR 10</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="assets/images/image6.jpeg" alt="Plant 6">
+                <h3>Indoor Plant 6</h3>
+                <p class="price">OMR 25</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="video" class="interactive-video">
+        <h2>Interactive Visual Experience</h2>
+        <div class="video-container">
+            <div id="player"></div>
+            <div class="custom-controls">
+                <button id="play-btn">Play</button>
+                <button id="pause-btn">Pause</button>
+                <a href="https://youtu.be/vI2UXnf6hy8" target="_blank" class="youtube-link">Watch on YouTube</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="3d" class="three-d-section">
+        <h2>Explore Plants in 3D</h2>
+        <div class="three-d-container">
+            <iframe width="100%" height="450" src="https://www.youtube.com/embed/9iARFCUiYjg" frameborder="0" allowfullscreen></iframe>
+            <p class="fallback">If content doesn't load, <a href="https://youtu.be/9iARFCUiYjg" target="_blank">watch on YouTube</a></p>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Heep</h4>
+                <p>&copy; 2026 Heep Plant Store - Oman. All rights reserved.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p><strong>Phone:</strong> <a href="tel:+96877135921">+968 77135921</a></p>
+                <p><strong>Instagram:</strong> <a href="https://instagram.com/heep_om" target="_blank">@heep_om</a></p>
+            </div>
+        </div>
+        <div id="secret-trigger" class="secret-leaf">🍃</div>
+    </footer>
+
+    <audio id="easter-egg-audio" src="assets/audio/birds.mp3"></audio>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js"></script>
+</body>
+</html>
